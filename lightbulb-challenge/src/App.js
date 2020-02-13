@@ -1,12 +1,14 @@
 import React, { Component } from 'react';
+import Light from './Light.js'
 import './App.css';
 
-export default class App extends Component {
+class App extends Component {
   render() {
     return (
       <div>
-        <h1>Your code goes here :)</h1>
+        <Light />
       </div>
     );
   }
 }
+export default App
